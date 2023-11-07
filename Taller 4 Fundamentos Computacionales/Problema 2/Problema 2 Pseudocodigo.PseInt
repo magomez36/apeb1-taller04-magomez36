@@ -1,0 +1,25 @@
+Algoritmo Numero_de_los_dias_Semana
+	Definir numeroDia Como Entero
+	Escribir 'Ingresar numero'
+	Leer numeroDia
+	Si numeroDia <= 7 Entonces
+		Según numeroDia Hacer
+			1:
+				Escribir 'Lunes'
+			2:
+				Escribir 'Martes'
+			3:
+				Escribir 'Miercoles'
+			4:
+				Escribir 'Jueves'
+			5:
+				Escribir 'Viernes'
+			6:
+				Escribir 'Sabado'
+			7:
+				Escribir 'Domingo'
+		FinSegún
+	SiNo
+		Escribir 'Numero no Valido'
+	FinSi
+FinAlgoritmo

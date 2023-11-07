@@ -1,0 +1,18 @@
+Algoritmo Categoria_de_Edades
+	Definir edadPersona Como Entero
+	Escribir 'Ingresar la edad persona'
+	Leer edadPersona
+	Si edadPersona>12 Entonces
+		Si edadPersona>=18 Entonces
+			Escribir 'La persona es un adulto.'
+		SiNo
+			Escribir 'La persona es un adolecente.'
+		FinSi
+	SiNo
+		Si edadPersona<=11 Entonces
+			Escribir 'La persona es un niño.'
+		SiNo
+			Escribir 'La persona es un adolecente.'
+		FinSi
+	FinSi
+FinAlgoritmo

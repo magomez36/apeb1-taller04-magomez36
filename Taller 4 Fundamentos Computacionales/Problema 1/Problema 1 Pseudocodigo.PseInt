@@ -1,0 +1,10 @@
+Algoritmo Edad_para_Votar
+	Definir edad Como Entero
+	Escribir 'Ingresar Edad de la persona'
+	Leer edad
+	Si edad >= 18 Entonces
+		Escribir 'Si es elegible para votar'
+	SiNo
+		Escribir 'No es elegible para votar'
+	FinSi
+FinAlgoritmo

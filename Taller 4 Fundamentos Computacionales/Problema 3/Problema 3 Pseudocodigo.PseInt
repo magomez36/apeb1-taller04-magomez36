@@ -1,0 +1,34 @@
+Algoritmo Mayor_de_3_Numeros
+	Definir n1, n2, n3 Como Entero
+	Escribir 'Ingresar un Numero'
+	Leer n1
+	Escribir 'Ingresar segundo Numero'
+	Leer n2
+	Escribir 'Ingresar tercer Numero'
+	Leer n3
+	Si n1=n2 Entonces
+		Si n2=n3 Entonces
+			Escribir 'No hay numero mayor, todos los numeros ingresados son iguales.'
+		SiNo
+			Si n2>n3 Entonces
+				Escribir 'El numero mayor es: ',n2
+			SiNo
+				Escribir 'El numero mayor es: ',n3
+			FinSi
+		FinSi
+	SiNo
+		Si n1>n2 Entonces
+			Si n1>n3 Entonces
+				Escribir 'El numero mayor es: ',n1
+			SiNo
+				Escribir 'El numero mayor es: ',n3
+			FinSi
+		SiNo
+			Si n2>n3 Entonces
+				Escribir 'El numero mayor es: ',n2
+			SiNo
+				Escribir 'El numero mayor es: ',n3
+			FinSi
+		FinSi
+	FinSi
+FinAlgoritmo

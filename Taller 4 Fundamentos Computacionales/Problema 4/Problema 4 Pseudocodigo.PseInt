@@ -1,0 +1,12 @@
+Algoritmo Descuento_en_Compras
+	Definir preciOriginal, descuento, precioFinal Como Real
+	Escribir 'Ingresar precio del producto'
+	Leer preciOriginal
+	Si preciOriginal>100 Entonces
+		descuento <- (preciOriginal*10)/100
+		precioFinal <- (preciOriginal-descuento)
+		Escribir 'El precio final del producto es: ', precioFinal
+	SiNo
+		Escribir 'El precio final del producto es: ', preciOriginal
+	FinSi
+FinAlgoritmo

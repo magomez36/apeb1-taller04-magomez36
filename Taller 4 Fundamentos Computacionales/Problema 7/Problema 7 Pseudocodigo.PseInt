@@ -1,0 +1,38 @@
+Algoritmo Rango_de_Notas
+	Definir calf Como Entero
+	Definir letra Como Cadena
+	Escribir 'Ingresar Calificación'
+	Leer calf
+	Si calf>=90 Entonces
+		letra <- 'A'
+		Escribir 'El rango de su calificación  es: ',letra
+	SiNo
+		Si calf>=80 Entonces
+			letra <- 'B'
+			Escribir 'El rango de su calificación es: ',letra
+		SiNo
+			Si calf>=70 Entonces
+				letra <- 'C'
+				Escribir 'El rango de su calificación es: ',letra
+			SiNo
+				Si calf>=60 Entonces
+					letra <- 'D'
+					Escribir 'El rango de su calificación es: ',letra
+				SiNo
+					Si calf>=50 Entonces
+						letra <- 'E'
+						Escribir 'El rango de su calificación es: ',letra
+					SiNo
+						Si calf>=0 Entonces
+							letra <- 'F'
+							Escribir 'El rango de su calificación es: ',letra
+						SiNo
+							letra = 'F'
+							Escribir 'El rango de su calificación es:',letra
+						FinSi
+					FinSi
+				FinSi
+			FinSi
+		FinSi
+	FinSi
+FinAlgoritmo

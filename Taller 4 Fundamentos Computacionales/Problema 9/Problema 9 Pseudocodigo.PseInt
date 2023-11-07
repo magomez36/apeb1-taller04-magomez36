@@ -1,0 +1,30 @@
+Algoritmo Orden_de_3_Numeros
+	Definir n1, n2, n3 Como Real
+	Escribir 'Ingresar el Primer Numero'
+	Leer n1
+	Escribir 'Ingresar el Segundo Numero'
+	Leer n2
+	Escribir 'Ingresar el Tercer Numero'
+	Leer n3
+	Si n1>n2 Entonces
+		Si n1>n3 Entonces
+			Si n3>n2 Entonces
+				Escribir n2,',',n3,',',n1
+			SiNo
+				Escribir n3,',',n2,',',n1
+			FinSi
+		SiNo
+			Escribir n2,',',n1,',',n3
+		FinSi
+	SiNo
+		Si n2>n3 Entonces
+			Si n3>n1 Entonces
+				Escribir n1,',',n3,',',n2
+			SiNo
+				Escribir n3,',',n1,',',n2
+			FinSi
+		SiNo
+			Escribir n1,',',n2,',', n3
+		FinSi
+	FinSi
+FinAlgoritmo
